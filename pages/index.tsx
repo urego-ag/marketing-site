@@ -12,7 +12,9 @@ export default function Home() {
       <body>
         <div className={styles.bgimg}>
           <div className={styles.topcentre}>
-            <img className={styles.logo} alt="Urego logo" src="/images/UREGO_logo_white_claim_RGB.svg"  />
+            <div className={styles.logo}>
+              <Image alt="Urego logo" src="/images/UREGO_logo_white_claim_RGB.svg" width="300" height="150" />
+            </div>
           </div>
           <div className={styles.middle}>
             <h1>COMING SOON</h1>
